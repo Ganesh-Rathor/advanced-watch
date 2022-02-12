@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+body{
+    background-color: rgb(42, 40, 40);
+    font-family: 'Nova Square';
+    font-weight: 100;
+}
+.border{
+    border: 0.5rem solid rgba(255, 0, 0, 0.705);
+    height: 25rem;
+    margin: 20vh auto;
+    width: 80vw;
+    border-radius:1rem ;
+    background-color: rgba(168, 200, 188, 0.719);
+    border-style:dashed;
+}
+.time{
+    font-size: 10rem;
+    margin:2rem 0 3rem 5vw ;
+    color: rgb(255, 0, 0);
+}
+.milisec{
+    font-size: 5rem;
+}
+.dayName, .dateValue{
+    margin-left: 10rem;
+    font-size: 3rem;
+    color: rgb(255, 51, 0);
+    display: inline-block;
+}
+
+@media screen and (max-width: 1000px){
+    .time{
+        font-size: 5rem;
+    }
+    .milisec{
+        font-size: 3rem;
+    }
+    .dayName, .dateValue{
+        font-size: 2rem;
+        margin: 0.5rem;
+    }
+
+}
